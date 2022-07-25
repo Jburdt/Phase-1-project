@@ -14,10 +14,14 @@
  ### FEATURES
  * user can click the randomize button that generates a Marvel character ('CLICK')
  * user can like a character ('CLICK')
- * users can delete characters ('CLICK')
- * User can submit a comment on the character card ('SUBMIT')
  * User can search their characters ('SUBMIT')
 
  ### MVP FEATURES
  * List of charcters ('DOMCONTENTLOADED')
+ * User can search their characters ('SUBMIT')
+ 
+ 
+ ## STRETCH GO
+ * User can submit a comment on the character card ('SUBMIT')
  * Delete charcters ('CLICK')
+ 
