@@ -1,43 +1,11 @@
-//GET NODES
-mainDiv = () => document.getElementById('mainDiv');
-const jokeButton = document.getElementById('GetRandomJokebtn')
+/* overall idea: when button is clicked it posts a new joke
+
+when: on click (click) event
+
+cause: click
 
 
-
-//PAGE LOAD 1
-document.addEventListener('DOMContentLoaded', () => {})
-    loadHomePage()
-    //getRandomJokes()
-    //renderJokeToDom()
+effect: render joke to page
 
 
-
-function loadHomePage() {
-    document.createElement('button')
-    
-}
-
-
-
-
-    //FETCH TO GET JOKES
-// function getRandomJokes() {
-//     fetch('https://icanhazdadjoke.com/j/<joke_id>')
-//     .then(res => res.json)
-//     .then(console.log(res))
-// }
-
-// function renderJokeToDom() {
-// mainDiv().innerHTML = 
-
-// }
-
-
-
-
-
-
-
-//1. page should load with a button that says get random joke
-//2.
-
+*/

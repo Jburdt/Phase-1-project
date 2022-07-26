@@ -1,29 +1,64 @@
-body {
+body{
     background-image: url("https://cms-cdn.thesolesupplier.co.uk/2022/02/the-best-dad-shoes-of-all-time_w1160.jpg");
     background-size: 100%;
   }
-  
+
   h1{
     font-size: 2rem;
     text-align: center;
     color: red;
     margin: 10px;
-    
   }
-  .right-align {
-    text-align: right;
-    
+
+  html{
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+    margin: 10px; 
   }
-  .joke-btn {
-    font-family: inherit;
-    font-size: 1.07rem;
-    background-color: #54f609;
-    width: 210px;
-    height: 80px;
-    border: solid;
-    background: #8c84b1;
-    color: rgb(0, 0, 0);
-    text-align: right;
-  background-position: right;
-    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+
+}
+
+button{
+margin-top: 4rem;
+width: fit-content;
+padding: 2rem;
+font-size: 2rem;
+background-color: blue;
+border: none;
+border: 4px;
+cursor: pointer;
+align-self: flex-end;
 }
