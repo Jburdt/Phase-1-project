@@ -1,27 +1,26 @@
 # MARVEL RANDOMIZER
 
 ## REQUIREMENTS
-* Have json-server installed
+* Have crome installed on computer
 
 ### FORK AND CLONE
 * Fork and clone
-* Run json server for db.json
 * Open index.html in the browser
  
  ### OVERVIEW
-
+This website is supposed to render a joke everytime the joke button is pushed. It should NOT be the same joke every time. 
 
  ### FEATURES
- * user can click the randomize button that generates a Marvel character ('CLICK')
- * user can like a character ('CLICK')
- * User can search their characters ('SUBMIT')
+ * user can click the randomize button that generates a Joke 
+ * user can like a joke ('CLICK')
+ * User can search their joke ('SUBMIT')
 
  ### MVP FEATURES
  * List of charcters ('DOMCONTENTLOADED')
- * User can search their characters ('SUBMIT')
+ * User can search their joke ('SUBMIT')
  
  
  ## STRETCH GO
- * User can submit a comment on the character card ('SUBMIT')
- * Delete charcters ('CLICK')
+ * User can submit a comment on the joke card ('SUBMIT')
+ 
  

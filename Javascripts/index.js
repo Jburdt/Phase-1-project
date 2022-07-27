@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', getRandomJokes)
 
 //EVENT LISTNERS
 jokeButton.addEventListener('click', getRandomJokes)
-likeButton.addEventListener('click', showLikes)
+
 
 //FETCH API JOKES 
 function getRandomJokes() {
@@ -29,6 +29,9 @@ function getRandomJokes() {
   
 }
  
+
+
+}
 
 
 
