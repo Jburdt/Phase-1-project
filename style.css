@@ -11,9 +11,9 @@ body{
   }
 
   html{
-    font-size: 2rem;
+    font-size: 0.5rem;
     text-align: center;
-    color: red;
+    color: black;
     margin: 10px; 
   }
 
@@ -36,7 +36,7 @@ section{
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    background-color: white;
+    background-color: cyan;
     border-radius: 8px;
     padding: 3rem;
     display: flex;
