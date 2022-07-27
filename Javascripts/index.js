@@ -3,6 +3,8 @@
 let insideDive = document.getElementById('inside')
 let jokeButton = document.getElementById('jokeButton')
 let pTag = document.getElementById('pTag')
+let likeButton = document.getElementById('like')
+console.log(likeButton)
 
 //PAGE LOAD
 document.addEventListener('DOMContentLoaded', getRandomJokes)
