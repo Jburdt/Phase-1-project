@@ -22,7 +22,7 @@ button.addEventListener("click", () => {
 
 //FETCH API JOKES 
 function getRandomJokes() {
-    const apiData = fetch('https://icanhazdadjoke.com/', {
+     apiData = fetch('https://icanhazdadjoke.com/', {
        headers: {
            'Accept': 'application/json'
         }
