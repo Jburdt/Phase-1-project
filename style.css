@@ -63,7 +63,7 @@ background-color: blue;
 border: none;
 border: 4px;
 cursor: pointer;
-align-self: flex-end;
+align-self: center;
 }
 .lable {
     height: 26px;
