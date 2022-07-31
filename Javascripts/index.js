@@ -30,8 +30,6 @@ function getRandomJokes() {
         }
     })
     .then(res => res.json())
-    //gets the res and pass it to another function to .json and get json format and
-    //get an object
     .then(apiData => pTag.innerText = apiData.joke)
     .catch(error => console.log(error, 'not working'))
 //RESETS HEART BUTTON
