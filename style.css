@@ -163,4 +163,17 @@ align-self: center;
       font-size: 2.5rem;
     }
   }
+/* SUBSCRIBE BOX CSS */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-box input {
+  font-size: 2.5em;
+  color: black;
+  padding-right: 3;
+}
 

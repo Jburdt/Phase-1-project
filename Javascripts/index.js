@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', getRandomJokes)
 
 //EVENT LISTNERS
 jokeButton.addEventListener('click', getRandomJokes);
-subscribeButton.addEventListener('click', makeSubscribeForm)
+// subscribeButton.addEventListener('click', makeSubscribeForm)
 
 
 //SHOWS LIKED HEART
@@ -39,8 +39,8 @@ function getRandomJokes() {
 };
 
 //MAKES SUBSCRIBE FORM
-function makeSubscribeForm() {
-  document.createElement('form')
-  form.
-}
+// function makeSubscribeForm() {
+//   document.createElement('form')
+//   form.
+// }
 
