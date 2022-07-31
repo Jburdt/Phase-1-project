@@ -5,13 +5,16 @@ let pTag = document.getElementById('pTag')
 let likeButton = document.getElementById('like')
 const button = document.querySelector(".heart-like-button");
 let subscribeButton = document.getElementById('submit')
-
+const form = document.getElementById('form')
 //PAGE LOAD
 document.addEventListener('DOMContentLoaded', getRandomJokes)
 
 //EVENT LISTNERS
 jokeButton.addEventListener('click', getRandomJokes);
-// subscribeButton.addEventListener('click', makeSubscribeForm)
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+})
+
 
 
 //SHOWS LIKED HEART
@@ -38,9 +41,5 @@ function getRandomJokes() {
         button.classList.remove("liked")}
 };
 
-//MAKES SUBSCRIBE FORM
-// function makeSubscribeForm() {
-//   document.createElement('form')
-//   form.
-// }
+
 
