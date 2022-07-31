@@ -1,4 +1,3 @@
-
 //NODE GETTERS
 let jokeButton = document.getElementById('jokeButton')
 let pTag = document.getElementById('pTag')
@@ -6,6 +5,7 @@ let likeButton = document.getElementById('like')
 const button = document.querySelector(".heart-like-button");
 let subscribeButton = document.getElementById('submit')
 const form = document.getElementById('form')
+
 //PAGE LOAD
 document.addEventListener('DOMContentLoaded', getRandomJokes)
 
@@ -14,8 +14,6 @@ jokeButton.addEventListener('click', getRandomJokes);
 form.addEventListener('submit', (e) => {
   e.preventDefault()
 })
-
-
 
 //SHOWS LIKED HEART
 button.addEventListener("click", () => {
@@ -36,7 +34,8 @@ function getRandomJokes() {
     .then(res => res.json())
     .then(apiData => pTag.innerText = apiData.joke)
     .catch(error => console.log(error, 'not working'))
-//RESETS HEART BUTTON
+
+    //RESETS HEART BUTTON
      if (button.classList.contains("liked")) {
         button.classList.remove("liked")}
 };
