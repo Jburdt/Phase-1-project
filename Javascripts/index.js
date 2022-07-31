@@ -4,12 +4,14 @@ let jokeButton = document.getElementById('jokeButton')
 let pTag = document.getElementById('pTag')
 let likeButton = document.getElementById('like')
 const button = document.querySelector(".heart-like-button");
+let subscribeButton = document.getElementById('submit')
 
 //PAGE LOAD
 document.addEventListener('DOMContentLoaded', getRandomJokes)
 
 //EVENT LISTNERS
-jokeButton.addEventListener('click', getRandomJokes)
+jokeButton.addEventListener('click', getRandomJokes);
+
 
 //SHOWS LIKED HEART
 button.addEventListener("click", () => {
