@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', getRandomJokes)
 
 //EVENT LISTNERS
 jokeButton.addEventListener('click', getRandomJokes);
+subscribeButton.addEventListener('click', makeSubscribeForm)
 
 
 //SHOWS LIKED HEART
@@ -37,5 +38,9 @@ function getRandomJokes() {
         button.classList.remove("liked")}
 };
 
-
+//MAKES SUBSCRIBE FORM
+function makeSubscribeForm() {
+  document.createElement('form')
+  form.
+}
 
