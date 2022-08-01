@@ -43,23 +43,17 @@ function getRandomJokes() {
 
 //SEARCH JOKES
 function searchJokes(term) {
+  let newArray = []
   fetch('https://icanhazdadjoke.com/search?term=' + term, {
     headers: {
       'Accept': 'application/json'
     }
   })
   .then(res => res.json())
-  .then(data => data.results.forEach(joke => pTag.innerText = joke.joke))
-
- }
-
-
-
-
-
-
-
-
-
-
-
+  .then(function (data) {
+    data.results.forEach(item => {
+      newArray.push(item.joke) 
+    })
+    pTag.innerText = newArray.join('\n')
+  })
+};
